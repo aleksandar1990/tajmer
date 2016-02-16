@@ -1,0 +1,255 @@
+
+.timer-footer{
+   color: #E8F1DA;
+   font-size: 0.8em;
+   text-align: right;
+   text-shadow: 1px 1px 2px #373034;
+}
+
+.timer-control-set{
+   background: rgba(1,255,255,0.4);
+   border-radius: 5px;
+   box-shadow: 0px 0px 20px #373034;
+   padding: 10px;
+   margin: 10px;
+}
+
+
+.timer-controls{
+   margin-left: 5px;
+   margin: auto;
+}
+
+div.container {
+	position: relative;
+    background-color: #0;
+    margin: auto;
+    width: 800px;
+	top: 300px;
+}
+
+div.div2 {
+    position: absolute;
+    right:0;
+    width: 195px;
+	color: #E8F1DA;
+	font-size: 5em;
+	bottom: 0;
+}
+
+.timer-display{
+   position: absolute;
+   background: #0;
+   color: #E8F1DA;
+   font-size: 15em;
+   text-align: center;
+   margin: auto;
+   font-weight: bold;
+   font-family: sans-serif, Serif;
+   left:0;
+   width: 600px;
+   bottom: 0;
+}
+
+.timer-float-placeholder{
+	position: relative;
+    background-color: #444;
+    margin: auto;
+    width: 150px;
+	top: 300px;
+}
+
+
+.timer-notification-area{
+   margin: auto;
+}
+
+.timer-info{
+   font-size: 3em;
+   color: #E8F1DA;
+   font-weight: bold;
+   background: #0;
+   text-align: center;
+  /* margin: auto;*/
+}
+
+.info-text-title{
+   font-size: 2em;
+}
+
+.timer-control-label{
+   font-weight: bold;
+   font-size: 2em;
+   color: #F1E8F6;
+   width: 150px;
+   display: inline-block;
+   text-shadow: 1px 1px 3px #373034;
+   float: left;
+}
+
+.timer-control-input{
+   border: none;/* solid 2px #E8F1DA;*/
+   width: 80px;
+   color: #E8F1DA;
+   border-radius: 5px;
+   font-size: 3em;
+   background: #373034;
+}
+
+
+.timer-action{
+   background: #8B8988;
+   border: solid 1px #373034;
+   font-weight: bold;
+   color: #373034;
+   font-size: 3em;
+   box-shadow: 0px 0px 10px #373034;
+   text-shadow: 1px 1px 2px #5F656B;
+   width: 100%;
+   padding: 10px;
+}
+
+.timer-action:hover{
+   background: #373034;
+   border: solid 1px #373034;
+   color: #E8F1DA;
+   box-shadow: 0px 0px 10px #E8F1DA;
+   text-shadow: 1px 1px 2px #5F656B;
+}
+
+.timer-float-info{
+   padding: 1px;
+   border-radius: 2px;
+   background: rgba(0,0,0,1);
+   margin: auto;
+   border: solid 1px #000000;
+   box-shadow: 0px 0px 10px #000000;
+   font-size: 1.5em;
+}
+
+.timer-disclaimer{
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+   background: rgba(95,101,107,0.7);
+   border-radius: 5px;
+   box-shadow: 0px 0px 20px #373034;
+   padding: 10px;
+   font-size: 0.7em;
+   color: #E8F1DA;
+}
+.timer-disclaimer a{
+   color: #E8F1DA;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.overlay-container{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   text-align: center;
+}
+.overlay-container .timer-info{
+   color: #E8F1DA;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 5em;
+   text-shadow: 0px 0px 4px #373034;
+}
+
+.info-text-title{
+   font-size: 0.3em;
+}
+
+.info-text{
+   font-size: 1.2em;
+}
+
+.state-error-mark{
+   border: solid 1px #111;
+   box-shadow: 0px 0px 4px #800;
+}
+
+.timer-display-like{
+   background: #0;
+   color: #E8F1DA;
+}
+
+.info-text-smaller{
+   font-size: 0.5em;
+}
+
+.timer-explanation{
+   font-size: 0.8em;
+   margin: 5px;
+}
+.timer-explanation-entry{
+   padding: 0.5px;
+}
+
+.keyboard-button{
+   border-radius: 3px;
+   border: solid 1px #E8F1DA;
+   padding: 2px;
+   display: inline-block;
+}
+
+.console{
+    background: #000;
+    color: #E8F1DA;
+    font-family: "digital";
+    font-size: 12px;
+}
+
+@font-face {
+  font-family: "digital";
+  src: url('digital-7 (italic).ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "mplus-1m-regular";
+  src: url('mplus-1m-regular.ttf');
+  font-style: italic;
+}
+
+body{
+   font-family: sans-serif, Serif;
+   background: rgba(0,0,0,1);
+}
+
+input{
+	font-family: "digital";
+}
+
+progress {
+    background-color: #000000;
+	color: #E8F1DA;
+    border: 0;
+    height: 30px;
+	width: 100%;
+}
+
+progress::-webkit-progress-bar {  
+	background-color: #000000;
+}  
+progress::-webkit-progress-value {  
+	background-color: #E8F1DA;
+}  
+
+progress::-moz-progress-bar {  
+	background-color: #E8F1DA;
+}  
+
+#filled_bar{
+	background-color: #E8F1DA;
+	color: #E8F1DA;
+	height: 50px;
+}
+
+#bStart{
+  font-size: 4em;
+}
